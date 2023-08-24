@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+        $('#example').tooltip({ boundary: 'window' })  
+      });
+      </script>
+    -->
     <!--main css file-->
     <link rel="stylesheet" href="styles.css">
     <!--background css file-->
@@ -15,15 +24,9 @@
     <link rel="stylesheet" href="src/background.css">
     <!--day/night css file-->
     <link rel="stylesheet" href="src/day-night.css">
-    <!--javaScript for day/night switch-->
-    <script>
-      function myFunction() {
-        var element = document.body;
-        element.classList.toggle("move");
-      }
-    </script>
+    
   </head>
-  <body class="area" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body class="area" data-spy="scroll" data-target=".navbar">
     <header>
       <div>
         <!--for navigation and title of the page-->
@@ -36,7 +39,7 @@
               Amit Verma
             </a>
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" data-offset="9000">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -45,9 +48,11 @@
             <div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                  <li><a href="#section1">Section 1</a></li>
-                  <li><a href="#section2">Section 2</a></li>
-                  <li><a href="#section3">Section 3</a></li>
+                  <li><a href="#section1">About</a></li>
+                  <li><a href="#section2">Skills</a></li>
+                  <li><a href="#section3">Experience</a></li>
+                  <li><a href="#section4">Projects</a></li>
+                  <li><a href="#section5">Contact</a></li>
                   <li>
                     <button onclick="myFunction()" class="sun-moon">
                     <input type="checkbox" />
@@ -74,149 +79,217 @@
       <div class="et_pb_text_inner">
         <p>Hi, my name is</p>
         <h1>Amit Verma.</h1>
-        <h2>I build things for the web.</h2>
-        <p>I&#8217;m a web developer specializing in building (and
+        <h3>I build things for the web.</h3>
+        <hr />
+        <p>A developer, co-author and scribbler/artist/poet for fun. I specialize in building (and
             occasionally designing) exceptional digital experiences, human
-            centered products at client&#8217;s discretion.</p>
+            centered products at client's discretion.</p>
       </div>
     </section>
-    <section>
+    <section id="section2"->
       <!--Technologies / skills-->
-      
-    </section>
-    <section>
-      <!--Experience-->
-    </section>
-    <section>
-      <!--Projects-->
-    </section>
-    <section>
-      <!--Contact me -->
-    </section>
-    <section>asdjklasjd</section>
-    <section id="section1">asdjklasjd
+      <h2>Skills</h2>
       <div>
-        site 1 : <a href="index1.html"> link</a><br>
-        site 2 : <a href="index2.html"> link</a><br>
-        site 3 : <a href="index.html"> link</a><br>
+        <ul class="auto-grid">
+          <li>
+            <img src="Images/codepen.png" alt="">
+            <h4>Code Pen</h4>
+          </li>
+          <li>
+            <img src="Images/js.png" alt="">
+            <h4>JavaScript</h4>
+          </li>
+          <li>
+            <img src="Images/codepen.png" alt="">
+            <h4>Code Pen</h4>
+          </li>
+          <li>
+            <img src="Images/js.png" alt="">
+            <h4>JavaScript</h4>
+          </li>
+          <li>
+            <img src="Images/codepen.png" alt="">
+            <h4>Code Pen</h4>
+          </li>
+          <li>
+            <img src="Images/js.png" alt="">
+            <h4>JavaScript</h4>
+          </li>
+          <li>
+            <img src="Images/codepen.png" alt="">
+            <h4>Code Pen</h4>
+          </li>
+          <li>
+            <img src="Images/js.png" alt="">
+            <h4>JavaScript</h4>
+          </li>
+        </ul>
+        all the skills here
       </div>
     </section>
-    <section>asdjklasjd
-      <div>
-        site 1 : <a href="index1.html"> link</a><br>
-        site 2 : <a href="index2.html"> link</a><br>
-        site 3 : <a href="index.html"> link</a><br>
-      </div>
-    </section>
-    <section>asdjklasjd
-      <div>
-        site 1 : <a href="index1.html"> link</a><br>
-        site 2 : <a href="index2.html"> link</a><br>
-        site 3 : <a href="index.html"> link</a><br>
-      </div>
-    </section>
-    <section>asdjklasjd
-      <div>
-        site 1 : <a href="index1.html"> link</a><br>
-        site 2 : <a href="index2.html"> link</a><br>
-        site 3 : <a href="index.html"> link</a><br>
-      </div>
-    </section>
-    <section>asdjklasjd
-      <div>
-        site 1 : <a href="index1.html"> link</a><br>
-        site 2 : <a href="index2.html"> link</a><br>
-        site 3 : <a href="index.html"> links</a><br>
-      </div>
-      ajdk;aosked;aosked
-      asjdmlak
-      
-      <section id="section1">
-        <!--about me section-->
-        <p>test subject </p>
-      </section>
-      <section>
-        <!--Technologies / skills-->
-      </section>
-      <section>
-        <!--Experience-->
-      </section>
-      <section>
-        <!--Projects-->
-      </section>
-      <section>
-        <!--Contact me -->
-      </section>
-      <section>asdjklasjd</section>
-      <section id="section1">asdjklasjd
-        <div>
-          site 1 : <a href="index1.html"> link</a><br>
-          site 2 : <a href="index2.html"> link</a><br>
-          site 3 : <a href="index.html"> link</a><br>
-        </div>
-      </section>
-      <section>asdjklasjd
-        <div>
-          site 1 : <a href="index1.html"> link</a><br>
-          site 2 : <a href="index2.html"> link</a><br>
-          site 3 : <a href="index.html"> link</a><br>
-        </div>
-      </section>
-      <section>asdjklasjd
-        <div>
-          site 1 : <a href="index1.html"> link</a><br>
-          site 2 : <a href="index2.html"> link</a><br>
-          site 3 : <a href="index.html"> link</a><br>
-        </div>
-      </section>
-      <section>asdjklasjd
-        <div>
-          site 1 : <a href="index1.html"> link</a><br>
-          site 2 : <a href="index2.html"> link</a><br>
-          site 3 : <a href="index.html"> link</a><br>
-        </div>
-      </section>
-      <section>asdjklasjd
-        <div>
-          site 1 : <a href="index1.html"> link</a><br>
-          site 2 : <a href="index2.html"> link</a><br>
-          site 3 : <a href="index.html"> links</a><br>
-        </div>
-        ajdk;aosked;aosked
-        asjdmlak
-        <footer id="section3" class="footer">a footer
-          <div>
-            some info
-          </div>
-          <div>
-            some other info
-          </div>
-        </footer>
-        <!--<section>
-          <div class="social-links">
-            Designed & Built by Amit Verma
-          </div>
-        </section>-->
-        <footer class="social-links main-footer">
-          <div id="footer-bottom">
-              <div class="container clearfix">
-                  <div id="footer-info">Designed &amp; Built by Amit Verma</div>
+    <section id="section3">
+      <!-- work experience section -->
+      <div class="work-experience">
+        <h2 class="text-center">Work Experience</h2>
+        <ul class="timeline">
+
+          <!-- Item 1 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Freelancer</span>
+                <span class="time-wrapper"><span class="time">2022 - present</span></span>
               </div>
+              <div class="desc">My current employment. Way better than the position before!</div>
+            </div>
+          </li>
+          
+          <!-- Item 2 -->
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">Some company</span>
+                <span class="time-wrapper"><span class="time">2018-202</span></span>
+              </div>
+              <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+            </div>
+          </li>
+        
+          <!-- Item 3 -->
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Some Company</span>
+                <span class="time-wrapper"><span class="time">2016-2018</span></span>
+              </div>
+              <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+            </div>
+          </li>
+          
+        </ul>        
+        <div class="row experience-title">
+          <div class="col-md-9">
+            <h3>Some company</h3>
+            <h4>Program Manager</h4>
+            <h5>Some project</h5>
           </div>
-      </footer>
-      <!--for background animation-->
-      <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <script src="src/main.js"></script>
+          <div class="col-md-3">
+            <h3>June 2015 - Present</h3>
+          </div>
+        </div>
+        <div class="row experience-summary">
+          <div class="col-md-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fugiat ullam, pariatur, iste sunt ducimus modi cum ad provident dolores mollitia voluptatibus nemo amet ipsam corporis, accusamus repudiandae nihil! Sed?</p>
+          </div>
+        </div>
+        
+        <!-- Corasent -->
+        <div class="row experience-title">
+          <div class="col-md-9">
+            <h3>Some company</h3>
+            <h4>Associate Project Manager</h4>
+            <h5>Some project</h5>
+          </div>
+          <div class="col-md-3">
+            <h3>Oct 2012 - Jun 2015</h3>
+          </div>
+        </div>
+        <div class="row experience-summary">
+          <div class="col-md-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sequi voluptatibus similique repellat, qui officiis excepturi odit esse magni veritatis voluptatum iste molestias illum labore fugit nihil, modi inventore. Excepturi!:</p>
+            <ul>
+              <li>Lead - UI design and development.</li>
+              <li>WordPress expert - Configuration, maintenance and custom development.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section4" class="our-webcoderskull padding-lg">
+      <!--Projects-->
+      <h2>Projects</h2>
+      <div>
+        <div>
+          <ul class="auto-grid project-grid">
+            <li>
+              <img src="Images/3a5d79de7e4371f30747c05ffd76466d - Shortcut.lnk" alt="">
+              <h4>Code Pen</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sequi voluptatibus similique repellat, qui officiis excepturi odit esse magni veritatis voluptatum iste molestias illum labore fugit nihil, modi inventore. Excepturi!:</p>
+            </li>
+            <li>
+              <img src="Images/js.png" alt="">
+              <h4>JavaScript</h4>
+            </li>
+            <li>
+              <img src="Images/codepen.png" alt="">
+              <h4>Code Pen</h4>
+            </li>
+            <li>
+              <img src="Images/js.png" alt="">
+              <h4>JavaScript</h4>
+            </li>
+            <li>
+              <img src="Images/codepen.png" alt="">
+              <h4>Code Pen</h4>
+            </li>
+            <li>
+              <img src="Images/js.png" alt="">
+              <h4>JavaScript</h4>
+            </li>
+        <!--
+          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+          Tooltip with HTML
+        </button>
+        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+          Tooltip on top
+        </button>
+        -->
+      </div>
+    </section>
+    <section id="section5">
+      <!--Contact me -->
+      <h2>Get In Touch</h2>
+      <p>My inbox is always. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+      <a id="fork" target="_blank" href="https://github.com/web-tiki/responsive-grid-of-hexagons">
+        Fork on GitHub
+      </a>
+    </section>
+    <footer id="section5" class="footer">
+      <div>
+        <h3>Social Links</h3>
+
+      </div>
+      <div>
+        <p>© 2023</p>
+      </div>
+    </footer>
+    <!--<section>
+        <div class="social-links">
+          Designed & Built by Amit Verma
+        </div>
+      </section>-->
+    <footer class="social-links main-footer">
+      <div id="footer-bottom">
+          <div class="container clearfix">
+              <div id="footer-info">Designed &amp; Built by Amit Verma</div>
+          </div>
+      </div>
+    </footer>
+    <!--for background animation-->
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <!--javaScript link-->
+    <script src="src/main.js"></script>
+    
   </body>
 </html>
